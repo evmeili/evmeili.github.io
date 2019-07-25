@@ -1,0 +1,270 @@
+#wolong{
+    width: 100%;
+    height: 1498px;
+    background-color: antiquewhite;
+}
+#wolong .content{
+    width: 1000px;
+    height:100%;
+    /* background-color; */
+    margin: auto;
+
+}
+/* 头部开始 */
+.haeder{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+}
+.haeder .logo{
+    width: 245px;
+    height: 100%;
+
+    background-image: url(../images/卧龙控股\(2\)_03.png);
+    background-repeat: no-repeat ;
+    background-position: center;
+    text-indent: -999px;
+}
+
+.haeder .search{
+    widows: 225px;
+    height: 26px;
+    border: 1px solid #e6e6e6;
+    margin-top: 40px;
+ 
+  
+}
+
+/* 头部结束 */
+
+/* 导航   nev开始 */
+.nev{
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+.nev ul{
+    height: 60px;
+}
+.nev .li1{
+    width: 119px;
+    height:60px;
+    border-right: 1px solid white;
+    font-size: 12px;
+    line-height: 60px;
+    text-align: center;
+}
+.nev a{
+    color: white;
+    display: block;
+    height: 60px;
+    width: 119px;
+}
+.nev a:hover{
+   background-color: yellow;
+}
+
+/* 导航nev结束 */
+
+/* banner 背景图开始 */
+.banner{
+    width: 100%;
+    height: 467px;
+    background-image: url(../images/卧龙控股\(2\)_06.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* banner背景图结束 */
+
+/* main1 板块开始*/
+.main1{
+    width: 100%;
+    height: 241px;
+    background-color: #ffffff;
+ 
+}
+.main1 h2{
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+
+}
+/* 新闻资讯 */
+.main1 .main1-left{
+    width: 452px;
+    height: 100%;
+    background-color: #ffffff;
+    padding-right:28px;
+    float: left;
+    
+}
+.main1 .main1-left li{
+    font-size: 12px;
+    line-height: 12px;
+    background-image: url(../images/卧龙控股\(2\)_16.png);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    margin-bottom: 13px;  
+}
+/* 单行文本出现省略号 */
+/* .main1-left .li2{
+    width: 480px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+} */
+
+
+.main1 .main1-left .span1{
+    margin-left: 9px;
+}
+
+.main1 .main1-left .span2{
+    float: right;
+}
+.main1 .main1-center{
+    width: 215px;
+    height: 100%;
+    background-color:#f1f1f1;
+    float: left;
+    padding-left: 25px;
+}
+.main1-center .p1{
+    font-size: 12px;
+    line-height: 26px;
+    color: #535353;
+    margin-bottom: 15px;
+    margin-top: 33px;
+}
+#wolong .p2{
+    font-size: 12px;
+    line-height: 24px;
+    color: #939393;
+}
+.main1 .main1-right{
+    width: 255px;
+    height: 100%;
+    background-image: url(../images/卧龙控股\(2\)_09.png);
+    background-repeat: no-repeat;
+    background-position: 144px 138px;
+    float: right;
+    padding-left: 25px;
+}
+.main1-right img{
+    margin-top: 50px;
+}
+/* main1结束 */
+
+
+/* main2开始 */
+.main2{
+    width: 100%;
+    height: 304px;
+    background-color: #fff;
+}
+.main2 .main2-1{
+    width: 962px;
+    height: 240px;
+    background-color: #ffffff;
+}
+.main2-1 .main2-1-1{
+    width: 210px;
+    height: 100%;
+    float: left;
+    margin-right: 40px;
+}
+.main2 h2{
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    margin-top: 27px;
+}
+.main2 img{
+    margin-bottom: 12px;
+}
+/* main2结束 */
+
+/* main3开始 */
+.main3{
+    width: 100%;
+    height: 250px;
+    background-color: #e5e5e5;
+}
+.main3 .main3-lefth{
+    width: 460px;
+    height: 100%;
+    float: left;
+    margin-right: 50px;
+}
+.main3 h2{
+    font-size: 18px;
+    line-height: 40px;
+    border-bottom: solid #c2c2c2 1px ;
+    margin-top: 20px;
+    margin-bottom: 31px;
+}
+.main3 li{
+    background-image: url(../images/卧龙控股\(2\).png);
+    background-repeat: no-repeat;
+    background-position: 6px center;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 14px;
+    padding-left: 18px
+}
+
+.main3 .ul1{
+    width: 156px;
+    float: left;
+}
+.main3 .ul2{
+    width: 190px;
+    float: left;
+}
+.main3 .ul3{
+    width: 104px;
+    float: left;
+}
+
+.main3 .main3-center{
+    width: 154px;
+    height: 100%;
+    float: left;
+    margin-right: 50px;
+}
+.main3 .main3-right{
+    width:258px;
+    height: 100%;
+    float: left;
+    background-image: url(../images/卧龙控股\(2\)_26.png);
+    background-repeat: no-repeat;
+    background-position: center 74px;
+}
+
+/* main3结束 */
+.footer{
+    width:100%;
+    height: 78px;
+    background-color:blue;
+}
+.footer .li3{
+    font-size: 10px;
+    line-height: 24px;
+    float: left;
+    height: 24px;
+    width: 10px;
+  
+}
+.footer .ul3{
+    height: 24px;
+
+}
+  
+   
+
+
+
+
+
