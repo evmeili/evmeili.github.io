@@ -1,0 +1,43 @@
+.conuten{
+    width: 990px;
+    background-color: #fafafa;
+    margin: auto;
+    
+}
+.left{
+    width: 242px;
+    float: left;
+    background-color: #fafafa;
+    border-right:1px solid #fafafa; 
+    overflow: hidden;
+    border-bottom: 1px solid #fafafa;
+}
+.left h2{
+    height: 58px;
+    background: url(../images/weixin.png) no-repeat 8px center,
+    url(../images/bg.png);
+    padding-left: 71px;
+    line-height: 58px;
+    padding-left: 70px;
+    font-size: 22px;
+}
+.left ul{
+    padding-left: 50px;
+    margin-bottom: 60px;
+}
+.left ul,li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 44px;   
+}
+.right{
+    float: right;
+    border:1px solid  red;
+}
+.right-1{
+    width: 694px;
+    height: 177px;
+    background:url(../images/背景图2.png) no-repeat 530px 65px ,
+    url(../images/背景图1.png) ;
+    margin-right: 27px;
+}

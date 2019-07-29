@@ -1,0 +1,882 @@
+.xiaolu{
+    width: 100%;
+    position: relative;
+}
+.content{
+    width: 1200px;
+    margin: auto;
+    /* border: 1px solid red; */
+    
+    
+}
+  
+.clearfix::after{
+    content:"";
+    display: block;
+    height: 0px;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* baoqian开始 */
+.xiaolu .biaoqian{
+    width: 80px;
+    height: 320px;
+    position: fixed;
+    right: 20px;
+    top: 250px;
+    z-index:999;
+   
+}
+.a1{
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;  
+}
+.biao-1{
+    width: 100%;
+    height: 80px;
+    position: relative; 
+}
+.biao-1 span{
+    width: 28px ;
+    height: 28px;
+    display: block;
+    background-image: url(../images/留个.png);
+    position: absolute;
+    top:13px;
+    right: 30px;
+}
+.biao-1 .span-biao2{
+    background-position: 0px -30px;
+}
+.biao-1 .span-biao3{
+    background-position: 0px -60px;
+}
+.biao-1 .span-biao4{
+    background-position: 0px -90px;
+}
+.p-biao{
+    position: absolute;
+    top: 54px;
+    left: 14px;
+    font-size: 12px;
+    line-height: 12px;   
+}
+.a1:hover .p-biao{
+    color: #ffb41f;
+}
+.a1:hover .span-biao{
+    background-position: 32px 0px;
+}
+.a1:hover .span-biao2{
+    background-position: 32px -30px;
+}
+.a1:hover .span-biao3{
+    background-position: 32px -60px;
+}
+.a1:hover .span-biao4{
+    background-position: 32px -90px;
+}
+/* biaoqian结束 */
+
+
+/* header开始 */
+.header{
+    width: 100%;
+    position: fixed;   
+   /* background: url(../images/头部标题.png) ; */
+   background: #fff;
+   z-index: 999;
+}
+.header .content{
+    background: url(../images/logo_1.png) no-repeat 0px center;
+}
+.header .span-1{
+    font-size: 12px;
+    margin-left: 86px;
+    line-height: 70px;
+    color: #ffb41f;
+}
+.header .ul1 {
+    float: right;
+   
+}
+.ul1 .lis1{
+    float: left;
+    margin-left: 60px;
+    line-height: 70px;
+    
+}
+.lis1 .a2{
+    font-size:16px;
+    
+}
+.ul1 .lis1:hover .a2{
+    color: #ffb41f;
+}
+/* header结束 */
+
+
+
+/* nev开始 /* 一级导航开始 */
+.nev {
+  width: 100%;
+    height: 350px;
+    background: url(../images/banner.png) no-repeat center;
+    margin-top: 70px;
+}
+.nev .nev-1{
+    width: 240px;
+    height: 350px;
+
+}
+.nev-1 .yiji{
+    width: 240px;
+    height: 350px;
+    position: relative;
+    /* background-color:#a9a9a9;
+    opacity: 0.8;  */
+    background-color: rgba(0,0,0,0.4);
+   
+}
+.yiji li{
+    /* border: 1px solid yellow; */
+    width: 100%; 
+    background-repeat: no-repeat; 
+    background-position: 65px 23px;
+    
+   
+   
+   
+}
+.yiji .yi1{
+background-image: url(../images/icon-b-1.png) ;
+}
+.yiji .yi2{
+    background-image: url(../images/icon-b-2.png) ;
+    }
+.yiji .yi3{
+    background-image: url(../images/icon-b-3.png) ;
+}
+ .yiji .yi4{
+    background-image: url(../images/icon-b-4.png) ;
+}
+.yiji .yi5{
+    background-image: url(../images/icon-b-5.png) ;
+}
+ .nev-1 .yiji li .aa{
+    font-size: 18px;
+    line-height: 66px;
+    color: white;
+    margin-left: 104px;  
+}
+
+
+/* /* 二级导航开始 */
+.yiji .erji{
+    width: 350px;
+    height: 320px;
+    position: absolute;
+    top:0;
+    left: 240px;
+    /* border: 1px solid red; */
+    padding-top:30px;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+}
+
+.erji .er1{
+    width: 100px;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 50px;
+    float: left;
+    border-right: 1px solid white;
+    text-align: center;
+}
+.erji .er1 .aa1{   
+    color: white;
+}
+.er1:hover .aa1{
+    color: #ffb41f;
+}
+
+
+/* 鼠标滑过的表格颜色改变 */
+.yiji .yi1:hover .erji{
+    display: block;
+}
+.yiji .yi1:hover{
+    /* background-color: red; */
+    background-color: rgba(0,0,0,0.4);
+}
+
+.yiji .yi2:hover .erji{
+    display: block;
+}
+.yiji .yi2:hover{
+    background-color: rgba(0,0,0,0.4);
+      
+}
+
+.yiji .yi3:hover .erji{
+    display: block;
+}
+.yiji .yi3:hover{
+    background-color: rgba(0,0,0,0.4);
+      
+}
+
+.yiji .yi4:hover .erji{
+    display: block;
+}
+.yiji .yi4:hover{
+    background-color: rgba(0,0,0,0.4);
+      
+}
+
+.yiji .yi5:hover .erji{
+    display: block;
+}
+.yiji .yi5:hover{
+    background-color: rgba(0,0,0,0.4);
+      
+}
+/* 二级导航结束。导航结束 */
+
+/* mian1开始 */
+.main{
+    width: 100%;
+}
+.main1 {
+    
+    margin: auto;
+    margin-top: 40px;
+}
+.main1 .main1-1{
+    width: 130px;
+    height: 96px;
+    float: left;
+    margin-left: 50px;
+   
+   
+}
+.main1  span{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/中间图.png) ;
+    margin: auto;
+    margin-bottom: 18px;
+}
+.p-main1{
+    font-size: 16px;
+    text-align: center;
+}
+.span-main2{
+    background-position: -0px -60px;
+}
+.span-main3{
+    background-position: -0px -120px;
+}
+.span-main4{
+    background-position: -0px -180px;
+}
+.span-main5{
+    background-position: -0px -240px;
+}
+.span-main6{
+    background-position: -0px -300px;
+}
+/* main1结束 */
+
+/* main开始 */
+.main2{
+    width: 100%;
+}
+/* .main2-1  */
+.h2-main2{
+    font-size: 28px;
+    line-height: 28px;
+    margin-top: 60px;
+    margin-bottom: 21px;
+
+}
+/* .main2-1 */
+ .span-main2{
+    font-size: 12px;
+}
+.main2-2 {
+    width: 100%;
+    background-color:burlywood;
+}
+.main2-2-left{
+    width: 540px;
+    height: 360px;
+    background-image: url(../images/100001190.jpg);
+    float: left;
+    margin-right: 10px;
+
+}
+.main2-2-mindd{
+    width: 262px;
+    height: 360px;
+    float: left;
+    margin-right: 10px;
+}
+.main2-2-mindd div{
+    width: 262px;
+    height: 175px;
+}
+.main2-2-mindd .main2-2-1{
+    background-image: url(../images/9089538.jpg);
+    background-size: 262px 175px;
+    margin-bottom: 10px;
+}
+.main2-2-mindd .main2-2-2{
+    background-image: url(../images/8842462.jpeg);
+    background-size: 262px 175px;
+
+}
+
+.main2-2-rigth{
+    width: 378px;
+    height: 360px;
+    background-image: url(../images/srhyjt.png);
+    float: left;
+    background-color: aqua;
+}
+.main-left{
+    display: block;
+    width: 540px;
+    font-size: 16px;
+    line-height: 80px;
+    color: #ffffff;
+    background-color: #27292a;
+    opacity: 0.8;
+    margin-top: 280px;   
+}
+.main2-2-1-1{
+    display: block;
+    width: 262px;
+    font-size: 16px;
+    line-height: 60px;
+    color: #fff;
+    background-color: #2a3b3d;
+    opacity: 0.8;
+    margin-top: 117px;
+    
+     /* 设置出省略号 */
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     
+}
+
+
+
+/* box1开始 */
+.xiaolu .box1{
+    width: 100%;
+}
+.box1 .top{
+    width: 100%;
+}
+.box1 .ul2{
+    
+    float: left;
+    width: 835px;
+}
+.ul2 .lis2{
+    float: left;
+    width: 110px;
+    background: url(../images/点点.png) no-repeat 0px 42px ; 
+   
+}
+.top .li1{
+    background: none;
+}
+ .ul2 li:hover .a3{
+    color: yellow;
+}
+.a3{
+    text-align: center;
+    font-size: 12px;
+    line-height: 84px;
+    color: #000;
+    margin-left: 25px;
+}
+.top .a-box2{
+    float: right;
+    margin-top: 40px;
+
+}
+/* box1-1开始 */
+ .box1 .box1-1{
+     width: 100%;
+
+}
+.box1-1 div{
+    width: 570px;
+    height: 160px;
+    float: left;
+    margin-bottom: 30px;
+    
+}
+.box1-1 .d1:nth-child(2n+1){
+    margin-right: 60px;
+}
+.d1 .d1-1{
+    width: 300px;
+    height: 140px;
+   
+    float:right;
+    margin-top: 8px;
+  
+}
+.d1-1 h2{
+    font-size: 18px;
+    line-height: 18px;
+    color: #333;
+    margin-bottom: 8px;
+
+}
+.d1-1 .p1{
+    font-size: 12px;
+    line-height: 28px;
+    color: #c8c8c8;
+    width: 95px;
+    margin-bottom: 17px;   
+}
+
+.span1{
+    float: right;
+}
+.d1-1 .p2{
+    font-size: 12px;
+    line-height: 25px;
+    color: #333333;
+    
+}
+
+
+.d1-1 .p3{
+    font-size: 12px;
+    line-height: 28px;
+    color: #c8c8c8;
+    width: 225px;
+    margin-bottom: 17px;   
+}
+.d1-1 .p4{
+    font-size: 12px;
+    line-height: 28px;
+    color: #c8c8c8;
+    width: 135px;
+    margin-bottom: 17px;   
+}
+/* box1结束 */
+
+/* box2开始 */
+.box2{
+    width: 100%;
+    height: 674px;
+    background-color: #f8f8f8;
+}
+.box2-1{
+    width: 100%;
+}
+.box2 .h2-box2{
+    font-size: 26px;
+    line-height: 26px;
+    margin-top: 40px;
+}
+.span-box2{
+    font-size: 12px;
+}
+.a-box2{
+    font-size: 12px;
+    color: #9b9b9b;
+    float: right;
+}
+.box2-2{
+    width: 100%;
+    height: 180px;
+    background-image: url(../images/bg-help.png);
+  margin-top: 22px;
+}
+.h2-box2-2-1{
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.p-box2-2-1{
+    font-size: 15px;
+    line-height: 45px;
+}
+.box2-2-1{
+    position: absolute;
+    top: 52px;
+    left: 250px;
+}
+.box2-2{
+    position: relative;
+}
+.qiuzhu{
+    width: 182px;
+    height: 62px;
+    position: absolute; 
+    top:50px;
+    right: 150px;
+}
+.erweima{
+    width: 150px;
+    height: 180px;
+    background-color: #fff;
+    position: absolute;
+    left: 880px;
+    top: -140px;
+    display: none;
+}
+.erweima .img2{
+    width: 100px;
+    height: 100px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.erweima .h5-erwei{
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.qiuzhu:hover+.erweima{
+    display: block;
+    
+}
+/* box2-2-1结束 */
+
+/* box2-3开始 */
+.box2-3{
+    width: 100%;
+    /* background-color: aquamarine; */
+    
+}
+.box2-3 .box2-3-1{
+    width: 270px;
+    height: 335px;
+    float: left;
+    margin-right: 40px;
+    margin-top: 30px;
+     
+    background-color: #fff;
+}
+.lianjie{
+    display: block;
+    width: 270px;
+    height: 180px;
+}
+.lianjie div{
+    width: 270px;
+    height: 180px;
+    /* background-image: url(../images/图1); */
+    position: relative;
+}
+.tupian1{
+    background-image: url(../images/图1);
+}
+.tupian2{
+    background-image: url(../images/图2);
+}
+.tupian3{
+    background-image: url(../images/图三);
+}
+.tupian4{
+    background-image: url(../images/图4);
+}
+.h3-tu{
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    position: absolute;
+    top:82px;
+    left: 46px;
+}
+.di2{
+    width: 230px;
+    height: 54px;
+    margin: auto;
+    border-bottom: 2px dashed #e8e8e8;
+}
+.lianjie2 span{
+    width: 67px;
+    height: 26px;  
+}
+.di2 span{
+    display: block;
+    width: 67px;
+    line-height: 26px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #fdf2e9;
+    float: left;
+    margin-right: 14px;
+    margin-top: 14px;
+}
+.di3{
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+}
+.di3-1{
+    display: block;
+    width: 203px;
+    background: url(../images/icon-q.png) no-repeat 0px center;
+    font-size: 12px;
+    line-height: 28px;
+    color: #666666;
+    padding-left: 27px;
+    margin-left: 20px;
+    /* 设置出省略号 */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* box2结束 */
+
+/*main3开始  */
+.main3{
+    width: 100%;
+}
+.main3-1{
+    width: 100%;
+    height: 350px;
+    background: url(../images/bg-counsoler.png);
+    position: relative;
+}
+.main3-1 .main3-1-1{
+    width: 365px;
+    height: 290px;
+    background:rgba(0,0,0,0.5);
+    /* border: 1px solid red; */
+    position: absolute;
+    top:30px;
+    left: 30px;
+}
+.main3-1-1 h4{
+    color: white;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 28px;
+    text-align: center;
+}
+/* ----出现的样式 */
+/* h4::before{
+    content: '';
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    width: 76px;
+    margin-right: 10px;
+    border-top: 1px dashed rgba(255,255,255,0.5);
+}
+h4::after{
+    content: '';
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    width: 76px;
+    margin-left: 10px;
+    border-top: 1px dashed rgba(255,255,255,0.5);
+} */
+/* 左右各设置结束 */
+
+.u-main3{
+    width:290px;
+    height: 175px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.li-1{
+    float: left;
+    width: 90px;
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+.li-1 a{
+    color: #333;
+    line-height: 36px;
+    font-size: 12px;    
+}
+.u-main3 .li-1:hover{
+    background-color: #ffb41f;
+}
+.li-1:hover a{
+    color: white;
+}
+/* main3-2开始 */
+.main3-2{
+    width: 100%;  
+}
+.u-main3-2{
+    width: 175px;
+    height: 12px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    background: url(../images/点点.png) no-repeat ;
+    background-position:67px 6px;
+    float: left;
+
+   
+}
+.u-main3-2 li{
+    float: left;
+    font-size: 12px;
+    line-height: 12px;
+}
+.li-3a{
+    width: 67px;  
+}
+.li-3b{
+    width: 100px;
+    text-align: right;
+}
+.u-main3-2 li:hover{
+    color: #ffb41f;
+}
+.span-main3-2{
+   float:right;
+   margin-top: 40px;
+}
+.main3-a3{
+    margin-top: 84px;
+    width: 1200px;
+    height: 274px;
+    
+}
+.main3-a3 div{
+    width: 224px;
+    height:274px;
+    float: left;
+    margin-right: 20px;
+
+}
+.main3-3-1{
+    background-image: url(../images/无月.jpg);
+    position: relative;
+
+}
+.main3-3-2{
+    background-image: url(../images/无月2.jpg);
+    position: relative;
+}
+.main3-3-3{
+    background-image: url(../images/无月2.jpg);
+    position: relative;
+}
+.main3-3-4{
+    background-image: url(../images/无月4.jpg);
+    position: relative;
+}
+.main3-3-5{
+    background-image: url(../images/无月5.jpg);
+    position: relative;
+} 
+.h3-main3-a{
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    margin-top: 236px;
+    text-align: center;  
+}
+/* 第二层 */
+.main3-a{
+    background-color: #ffb41f;
+    width: 224px;
+    height:274px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    display: none;
+}
+.main3-a3 div:hover .main3-a{
+    display: block;
+}
+/* 第二层结束 */
+
+.main3-4{
+    width: 100%;
+    height: 180px;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(../images/300bg.png);
+    margin-bottom: 30px;
+
+}
+.p-main4{
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 20px;
+    
+}
+
+/* main5开始 */
+.main5{
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.h2-main5{
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 50px;
+}
+
+
+.main5-1{
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+}
+.main5-1-1{
+    width: 380px;
+    height: 120px;
+    background-color: #fff;
+    float: left;
+    margin-right: 30px;
+    background-image: url(../images/段落背景2.png);
+    background-repeat:no-repeat; 
+    background-position: 20px 31px;
+}
+.main5-1-1 p{
+    width: 230px;
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 36px;
+    margin-top:20px;   
+}
+.main5-2{
+    width: 100%;
+    margin-bottom: 74px;
+}
+.main5-2 div{
+    width: 150px;
+    height: 70px;
+    float: left;
+    margin-right:25px;   
+}
+
+
+
+
+
+
+
+
+
+
