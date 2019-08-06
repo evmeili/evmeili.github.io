@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+}
+.hunli{
+    width:100%;
+    height: 100%;
+}
+
+.content{
+    width: 1200px;
+    margin: auto;
+   
+}
+
+.nev{
+    overflow: hidden;
+    width: 100%;
+    height: 310px;
+    background-color: beige;
+    background: url(../images2/bg.png) no-repeat;
+
+}
+.nev .h2-nev{
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 57px;
+    text-align: center;
+}
+.top{
+    width: 100%;
+    position: relative;
+}
+.top-1 {
+    width: 100%;
+}
+.top .top-1{
+    width: 1200px;
+    background-color: #fff;
+    position: absolute;
+    top:-172px;
+ 
+    
+}
+.top-ul{
+    width: 1200px;
+    display: flex; 
+    justify-content: space-around; 
+    box-sizing: border-box;
+    height: 250px;
+   align-items: center;
+   box-shadow: 0px -20px 0 0 #f7f7f7 inset;
+}
+.top-ul li{
+    list-style: none;
+}
+.top-ul li a{
+    text-decoration: none;
+    width: 140px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+li .tu2{
+    width: 72px;
+    height: 72px;
+    align-self: center;
+    background: url(../images2/CSS\ Satyr.png);
+}
+.span11 .tu2{
+    background-position:-105px -0px; 
+}
+.span12 .tu2{
+    background-position: -0px -70px;
+}
+.span13 .tu2{
+    background-position:-0px -145px;
+}
+.span14 .tu2{
+    background-position:  -5px -230px;
+}
+.span15 .tu2{
+    background-position: -205px -0px;
+}
+.span16 .tu2{
+    background-position: -205px -80px;
+}
+.span17 .tu2{
+    background-position: -205px -155px;
+}
+.span18 .tu2{
+    background-position: -205px -240px;
+}
+li span{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span2{
+    color: black;
+}
+.p1{
+    color: #e4e4e4;
+    font-size: 12px;
+}
+
+.p1{
+    display: none;
+}
+a:hover .p1{
+    display: block;
+}
+a:hover span{
+     border-radius: 50%;
+    background-color: crimson;
+}
+.lis1:hover .tu2{
+    background-position:-105px -0px; 
+}
+.lis2:hover .tu2{
+    background-position:-100px -70px; 
+}
+.lis3:hover .tu2{
+    background-position:-100px -140px; 
+}
+.lis4:hover .tu2{
+    background-position:-100px -215px; 
+}
+.lis5:hover .tu2{
+    background-position:-310px -0px; 
+}
+.lis6:hover .tu2{
+    background-position:-315px -85px; 
+}
+.lis7:hover .tu2{
+    background-position:-315px -165px; 
+}
+.lis8:hover .tu2{
+    background-position:-305px -250px; 
+}
+/* 结束top  */
+
+/* box开始 */
+.box{
+    width: 100%;
+}
+.box-h2{
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 156px;
+    
+}
+.box1{
+    width:1200px;
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.box1-1 {
+    color: #050d00;
+    text-decoration: none;
+    width: 224px;
+    height: 221px;
+    position: relative;
+    box-shadow: 0px 10px 98px 0  #ccc;
+  
+}
+.box1-1 h3{
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 23px;
+}
+
+
+.box2-1{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    background-image: url(../images2/箭头.png) ;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: absolute;
+   left: 50%;
+   top:200px;
+   display: none;
+}
+.box1-1:hover .box2-1{
+    display: block;
+}
+/* box2结束 */
+
+/* box3开始 */
+.box3-1{
+    width: 100%;
+    height: 135px;
+    background-color: aquamarine;
+}
+.box3{
+    width: 380px;
+    height: 27px;
+    background: url(../images2/定位t.png)no-repeat ;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 38px;
+
+}
+.span-box3{
+    width: 80px;
+  padding-left: 40px;
+  border-right: 1px solid #636363;
+
+}
+.ul-box3,.li2{
+    width: 230px;
+    list-style: none;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.li2 a{
+    color: #3b2a32;
+    text-decoration:none;
+}
+.li2:hover a{
+    text-decoration: underline;
+    
+}
+
+/* box6开始 */
+.box6{
+    width: 100%;
+    height: 680px;
+    background-color: #f8f8f8;
+    margin-top: 75px;
+}
+.box6 .content{
+    overflow: hidden;
+}
+.box6 .box6-h2{
+    font-size: 33px;
+    line-height:33px;
+   text-align: center;
+    margin-top: 56px;
+    margin-bottom:30px;
+}
+.box6 .ul6{
+    width:450px;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+}
+.ul6 .li6{
+    list-style:none;
+    border-right:1px solid #ccc;
+    padding-right:10px;
+    font-size: 15px;
+    line-height: 15px;
+    color:#2a2a2c;
+}
+.box7{
+    width:100%;
+    height:412px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.box7 .box7-1{
+    width:285px;
+    height:284px;
+    position: relative;
+}
+.box7-1 .box7-2{
+    display: flex;
+    flex-direction: column;
+    width:233px;
+    height:110px;
+    position: absolute;
+    top:230px;
+    left: 15px;
+    text-decoration:none;
+    padding-left: 20px;
+    background-color: white;
+    box-shadow: 0 15px 0 0 #f3f3f3;
+}
+.box7-2 h3{
+    font-size:23px;
+    line-height:23px;
+    color:#0c0500;
+    margin-top:19px;
+    margin-bottom: 13px;
+}
+.box7-2 .div-box7{
+    width:40px;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+.box7-3{
+    display: flex;
+    list-style: none;
+    width:146px;
+    height:14px;
+    color: #222943;
+    justify-content: space-between;
+}
+.box7-1 .box7-2:hover{
+    position: absolute;
+    top: 220px;
+}
+/* box7结束 */
+
+/*  box8 开始*/
+.box8{
+    display: flex;
+    width: 160px;
+    height: 48px;
+    background-image: url(../images2/箭头.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: red;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
