@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    color: #666;
+}
+
+.zhuce {
+    width: 100%;
+
+    .wrapper {
+        width: 1200px;
+        margin: auto;
+    }
+
+    .header-wrap {
+        width: 99%;
+        height: 90px;
+        border-bottom: solid 2px #F5F5F5;
+        margin: 5px auto 0 auto;
+        position: relative;
+        z-index: 100;
+        background-color: #FFF;
+        width: 100%;
+
+        .wrapper {
+            width: 1000px;
+        }
+
+        .public-head-layout {
+            height: 80px;
+
+            .site-logo {
+                margin: 10px 0 0 0;
+                position: relative;
+                width: 350px;
+                height: 68px;
+                float: left;
+
+                a {
+                    color: #06C;
+
+                    img {
+                        width: 240px;
+                        height: 68px;
+                    }
+                }
+            }
+
+            .nc-login-now {
+                font-size: 14px;
+                color: #AAA;
+                line-height: 24px;
+                float: right;
+                height: 24px;
+                margin-top: 50px;
+
+                a {
+                    font-weight: 600;
+                    margin-left: 4px;
+                    font-family: "微软雅黑";
+                    color: #06C;
+                }
+            }
+        }
+    }
+
+    .nc-register-bg {
+        background: #FAFAFA url(../img3/register_bg.png) repeat 50% 50%;
+        width: 100%;
+        height: 680px;
+        overflow: hidden;
+
+        .nc-register-box {
+            background: rgba(0, 0, 0, 0.15);
+            width: 860px;
+            height: 560px;
+            padding: 10px;
+            margin: 60px auto;
+
+            .nc-register-layout {
+                background-color: #FFF;
+                display: block;
+                width: 820px;
+                height: 520px;
+                padding: 19px;
+                border: solid 1px #CCC;
+                overflow: hidden;
+
+                .left {
+                    width: 600px;
+                    height: 520px;
+                    float: left;
+
+                    .nc-register-mode {
+                        width: 580px;
+
+                        .tabs-nav {
+                            font-size: 0;
+                            word-spacing: -1em;
+                            border-bottom: solid 1px #E6E6E6;
+
+                            li {
+                                vertical-align: bottom;
+                                letter-spacing: normal;
+                                word-spacing: normal;
+                                text-align: center;
+                                display: inline-block;
+                                width: 50%;
+                                height: 40px;
+                                margin-bottom: -1px;
+
+                                a {
+                                    font-size: 18px;
+                                    color: #999;
+                                    line-height: 24px;
+                                    padding-bottom: 13px;
+                                    position: relative;
+                                    z-index: 1;
+                                    font-family: "微软雅黑";
+
+                                    i {
+                                        font-size: 0;
+                                        line-height: 0;
+                                        border-color: #FF500B transparent transparent transparent;
+                                        border-style: solid dashed dashed dashed;
+                                        border-width: 7px;
+                                        display: none;
+                                        width: 0;
+                                        height: 0;
+                                        margin-left: -4px;
+                                        position: absolute;
+                                        z-index: 1;
+                                        left: 50%;
+                                        bottom: -17px;
+                                    }
+                                }
+
+                            }
+                        }
+
+                        .tabs-container {
+                            position: relative;
+                            z-index: 1;
+
+                            .tabs-content {
+                                padding: 50px 80px 0 100px;
+                                span{
+                                    font-size: 14px;
+                                }
+
+                                .nc-login-form dl {
+                                    background-color: #FFF;
+                                    width: 398px;
+                                    height: 52px;
+                                    margin-top: -1px;
+                                    border: solid 1px #E6E6E6;
+                                    position: relative;
+                                    z-index: 1;
+
+                                    dt {
+                                        font-size: 14px;
+                                        line-height: 20px;
+                                        color: #666;
+                                        width: 88px;
+                                        padding: 16px 0 16px 20px;
+                                        float: left;
+                                    }
+
+                                    dd {
+                                        height: 28px;
+                                        float: left;
+                                        padding: 12px 0;
+
+                                        .text {
+                                            font-family: "microsoft yahei";
+                                            font-size: 14px;
+                                            line-height: 28px;
+                                            width: 290px;
+                                            height: 28px;
+                                            padding: 0;
+                                            border: none 0;
+                                        }
+                                    }
+                                }
+
+                                .nc-login-form .clause-div {
+                                    font-size: 14px;
+                                    color: #666;
+                                    line-height: 30px;
+                                    width: 400px;
+                                    height: 30px;
+                                    margin-top: 15px;
+                                    border: none 0;
+                                }
+
+                                .m-t-10 {
+                                    margin-top: 10px !important;
+                                }
+
+                                .tiptext {
+                                    line-height: 20px;
+                                    color: #999;
+                                    margin: 15px 0;
+
+                                    a {
+                                        line-height: 22px;
+                                        color: #FFF;
+                                        background-color: #21b384;
+                                        vertical-align: middle;
+                                        display: inline-block;
+                                        height: 22px;
+                                        padding: 0 8px;
+                                        margin: 0 4px;
+                                        border-radius: 2px;
+                                    }
+
+                                }
+
+                                .red {
+                                    color: #DD5A43 !important;
+                                }
+
+                                strong {
+                                    font-weight: bold;
+                                }
+
+                                .nc-login-form .submit-div {
+                                    margin-top: 15px;
+
+                                    .submit {
+                                        font-family: "microsoft yahei";
+                                        font-size: 16px;
+                                        font-weight: 600;
+                                        color: #FFF;
+                                        background-color: #FF500B;
+                                        width: 398px;
+                                        height: 42px;
+                                        border: solid 1px #e4393c;
+                                        border-radius: 3px;
+                                        cursor: pointer;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+
+                    .zhuce {
+                        width: 100px;
+                        height: 30px;
+                        margin: 0 auto;
+
+                        .inzhu {
+                            width: 200px;
+                            font-size: 18px;
+                            line-height: 30px;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+
+                .right {
+                    width: 200px;
+                    height: 500px;
+                    float: right;
+                    padding: 20px 0 0 19px;
+                    border-left: solid 1px #E6E6E6;
+
+                    h4 {
+                        font-size: 14px;
+                        line-height: 20px;
+                        height: 20px;
+                        margin-bottom: 20px;
+                        color: #333;
+                        font-style: normal;
+                        font-weight: normal;
+                    }
+
+                    ul,
+                    ol {
+                        list-style: none outside none;
+
+                        li {
+                            color: #999;
+                            line-height: 24px;
+                            margin-bottom: 10px;
+                            padding-left: 12px;
+
+                            i {
+                                background: url(../img3/login_pic.png) no-repeat;
+                                vertical-align: middle;
+                                display: inline-block;
+                                width: 24px;
+                                height: 24px;
+                                margin-right: 8px;
+                            }
+                        }
+
+                        .ico01 i {
+                            background-position: 0 -76px;
+                        }
+
+                        .ico02 i {
+                            background-position: -30px -76px;
+                        }
+
+                        .ico03 i {
+                            background-position: -60px -76px;
+                        }
+
+                        .ico05 i {
+                            background-position: -120px -76px;
+                        }
+
+                        .ico06 i {
+                            background-position: -150px -76px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    #footer {
+        font-size: 12px !important;
+        text-align: center;
+        clear: both;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        overflow: hidden;
+        background-color: rgb(52, 58, 58);
+        font-family: "微软雅黑";
+    }
+}

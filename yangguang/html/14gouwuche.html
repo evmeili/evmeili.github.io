@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>购物车</title>
+  <link rel="stylesheet" href="../css/14gouwuche.css">
+  <link rel="stylesheet" href="../font_gkrorcgkyim/iconfont.css">
+</head>
+
+<body>
+  <div class="shop">
+    <div class="header"> </div>
+    <div class="ncc-head-wrap ">
+      <header class="ncc-head-layout">
+        <div class="site-logo"><a href="/">
+            <img src="../imges/2c6ce4ec89967ee42ef77fb0b524fc0c.png" alt=""></a>
+        </div>
+        <ul class="ncc-flow">
+          <li class="current">
+            <i class="step1 icon iconfont icon-gouwuche"></i>
+            <p>我的购物车</p>
+            <sub></sub>
+            <div class="hr"></div>
+          </li>
+
+        </ul>
+      </header>
+    </div>
+    <div class="ncc-main">
+      <div class="ncc-title ncc-wrapper">
+        <h3>我的购物车</h3>
+        <h5>查看购物车中所添加的商品；增加减少数量、并勾选确认想要购买的商品进入下一步操作。</h5>
+      </div>
+      <div class="ncc-cart-status">购物车状态：
+        <span class="bar">
+          <span class="sub" id="buyMaxTopPanel" data-max="50" style="width: 2px;"> </span>
+        </span>
+        <span class="sum" id="buyTopSumPanel">1/50（线上：1，门店：0）</span>
+      </div>
+      <form action="/buy" method="POST" id="form_buy" name="form_buy">
+        <input type="hidden" value="1" name="isCart">
+        <input type="hidden" name="buyData" id="buyDataInput" value="">
+        <input type="hidden" name="isExistBundling" id="isExistBundlingInput" value="0">
+        <div class="ncc-wrapper">
+          <div id="normalGoodsList">
+            <div class="ncc-mod-thead">
+              <ul class="columns">
+                <li class="col-opt"><span class="checkbox-layout">
+                    <label><input type="checkbox" class="checkbox" id="checkedAllBtn" autocomplete="off">全选</label>
+                  </span></li>
+                <li class="col-goods">商品</li>
+                <li class="col-quantity">数量</li>
+                <li class="col-unitprice">单价</li>
+                <li class="col-rebate">优惠</li>
+                <li class="col-amount">金额</li>
+              </ul>
+            </div>
+
+            <div class="ncc-mod-tbody" id="modTbody_1">
+
+              <div class="store-bar">
+                <div class="fl"> <span class="checkbox-layout">
+                    <input type="checkbox" class="checkbox J-store-all-check" data-store-all-check="1"
+                      autocomplete="off" id="storeAllCheck_1">
+                    <label></label>
+                  </span><a class="store-name" href="###">官方店铺</a>
+                </div>
+                <div class="fr"> </div>
+              </div>
+              <div class="goods-zone clearfix" id="goodsZone_6264">
+                <!-- <div class="mask-layer"><span class="top"></span><span class="right"></span><span>
+                      class="bottom"></span><span class="left"></span></div>
+                  <div class="fl m-r-5"><span class="checkbox-layout">
+                      <input type="checkbox" class="checkbox J-spu-checkbox" id="spuCheckBox_6264"
+                        data-spu-checkbox="6264" data-goods-modal="1" data-spu-store-id="1" autocomplete="off"
+                        data-is-chain="0" data-is-virtual="0" data-is-foreign="0"
+                        data-img="https://pic1.cnrmall.com/image/21/ea/21ea73d825cd1b2f8d78bed4025bae37.jpg@160w_160h"
+                        data-goods-name="微山湖特产南四湖荷叶鸭美味组 货号124049" data-real-common-id="0" data-goods-type="0"
+                        data-sku-amount="279" data-sku-num="1">
+                      <label></label>
+                    </span> </div>
+                  <div class="goods-img">
+                    <div class="img-vertical"><a href="###"><img
+                          src="https://pic1.cnrmall.com/image/21/ea/21ea73d825cd1b2f8d78bed4025bae37.jpg@160w_160h"
+                          alt="" style="max-width:100%; max-height:100%"></a></div>
+                  </div>
+                  <div class="goods-main">
+                    <div class="spu-name"><span class="tag tag1"></span><a href="###">微山湖特产南四湖荷叶鸭美味组 货号124049</a>
+                      <div class="attributes"> </div>
+                    </div>
+
+                    <div class="panel-remove">
+                      <a class="icon-collect" href="###" data-goods-favorites="6264" data-chain-id="0"
+                        data-real-common-id="0" title="移至收藏">
+                        <i class="icon iconfont icon-xingxing" aria-hidden="true"></i>
+                      </a>
+                      <a class="icon-delete" href="###" title="删除该商品" data-spu-del="6264" data-chain-id="0"
+                        data-real-common-id="0">
+                        <i class="icon iconfont icon-shanchu" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="panel-modify"><a href="###" data-mod-id="6264"><i class="fa fa-pencil"
+                          aria-hidden="true"></i><span data-spu-mod="">修改</span></a></div>
+                    <table class="spu-singles">
+                      <tbody>
+                        <tr class="goods-sku" id="goodsSkuPanel_10183" data-goods-spu="6264" data-sku-id="10183"
+                          data-cart-id="10183" data-goods-modal="1" data-goods-type="normal" data-goods-web-usable="1"
+                          data-web-price0="279.00" data-web-price1="279.00" data-web-price2="279.00"
+                          data-goods-price0="299" data-goods-price1="0" data-goods-price2="0" data-is-spec="0"
+                          data-goods-storage="125" data-buy-limit="10" data-unit-name="组" data-chain-id="0"
+                          data-is-chain="0">
+                          <td>&nbsp;</td>
+                          <td class="sku-opt"> </td>
+                          <td class="sku-primary"></td>
+                          <td class="sku-quantity">
+                            <div class="sku-quantity-block clearfix">
+                              <a href="###" class="minus crisis" title="减少">
+                                <span class="fa fa-minus" aria-hidden="true">-</span>
+                              </a>
+                              <input type="text" class="input-text" value="1" id="buyNumInput_10183" autocomplete="off">
+                              <a href="###" class="plus" title="增加">
+                                <span class="fa fa-plus" aria-hidden="true">+</span>
+                              </a>
+                              <span class="text-warning"> </span>
+                            </div>
+                          </td>
+                          <td class="sku-delete">
+                            <a href="###" title="删除" data-goods-spec-del="10183">
+                              <span class="fa fa-trash-o" aria-hidden="true">删除</span>
+                            </a>
+                          </td>
+                          <td class="sku-unitprice">
+                            <span class="number number-thin">
+                              <span class="yuan">￥</span><span class="integer">279</span><span
+                                class="pointer">.</span><span class="decimal">00</span>
+                            </span>
+                          </td>
+                          <td class="sku-rebate">
+                            <div class="sku-rebate-block" id="limitedtime_10183" data-por-type-text="限时折扣">限时折扣 </div>
+                          </td>
+                          <td class="sku-amount">
+                            <div class="sku-amount-block">
+                              <em id="skuAmount_10183" class="number number-14">
+                                <span class="yuan">￥</span>
+                                <span class="integer">279</span>
+                                <span class="pointer">.</span>
+                                <span class="decimal">00</span>
+                              </em>
+                            </div>
+                            <div class="save" style="display: block;">共省
+                              <em id="saveMoneyTotal_10183">
+                                <span class="yuan">￥</span>
+                                <span class="integer">20</span>
+                                <span class="pointer">.</span>
+                                <span class="decimal">00</span>
+                              </em>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+
+                    </table>
+                  </div> -->
+              </div>
+
+            </div>
+            <div id="modTfootPanelShow">
+              <div class="ncc-mod-tfoot tfoot-fix-bottom" id="modTfootPanel">
+                <div id="disableBuyTips" class="group-wrapper group-popup hidden" style="display: none;">
+                  <div id="J_SelectedItemsList" class="group-content">
+                    <div class="group-top-title">
+                      <p>请分开结算以下商品</p>
+                      <span id="J_group_close_btn" class="group-close-btn"></span>
+                    </div>
+                    <div class="groups-list" id="disableBuyTipsGoodsList"></div>
+                  </div><span class="arrow"></span>
+                </div>
+                <div class="actions"><span class="checkbox-layout">
+
+                    <label for="checkedAllBottomBtn"><input type="checkbox" class="checkbox" id="checkedAllBottomBtn"
+                        autocomplete="off">全选</label>
+                  </span> <a href="###" class="delete-checked" id="mDelSkuBtn">删除</a> </div>
+                <div class="summary">
+                  <dl>
+                    <dt>选购商品种类：</dt>
+                    <dd class="kinds-total">
+                      <span class="value" id="kindsTotal">0</span>
+                      种
+                    </dd>
+                    <dt>选购数量总计：</dt>
+                    <dd class="quantity-total">
+                      <span class="value" id="quantityTotal">0</span>
+                      件
+                    </dd>
+                    <dt>商品金额总计：</dt>
+                    <dd class="amount-total">
+                      <strong class="value" id="amountTotal">
+                        <span class="yuan">￥</span>
+                        <span class="integer">0</span>
+                      </strong>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="form">
+                  <button id="cartSubmit" class="checkout">结算</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="footer"></div>
+  </div>
+
+</body>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/03carheader.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/14gouwuche.js"></script>
+
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页</title>
+    <link rel="stylesheet" href="../css/11denglu.css">
+</head>
+
+<body>
+    <div class="denglu">
+        <div class="header-wrap">
+            <header class="public-head-layout wrapper">
+                <h1 class="site-logo">
+                    <a href="/">
+                        <img src="https://pic2.cnrmall.com/image/2c/6c/2c6ce4ec89967ee42ef77fb0b524fc0c.png" alt="">
+                    </a>
+                    <span>欢迎登录</span>
+                </h1>
+            </header>
+        </div>
+        <div class="tips-wrapper">
+            <div class="tips-inner">
+                <div class="cont-wrapper">
+                    <i class="icon-tips"></i>
+                    <p>为确保您账户的安全及正常使用，依《网络安全法》相关要求，会员账户需绑定手机。如您还未绑定，请尽快完成，感谢您的理解及支持！</p>
+                </div>
+            </div>
+        </div>
+        <div class="nc-login-layout">
+            <div class="wrapper">
+                <div class="nc-login">
+                    <div id="loginModule" class="nc-login-mode">
+                        <ul class="login-tabs-nav">
+                            <li><a href="" class="tabulous_active">用户登录</a></li>
+                            <li><a href="" style="color: #333">手机动态码登录</a></li>
+                            <span class="tabulousclear"></span>
+                        </ul>
+                        <div id="tabs_container" class="login-tabs-container" style="height: 194px;">
+                            <div id="commonModule" class="tabs-content" style="position: absolute; top: 0px;">
+                                <form id="loginForm" class="login-form" name="loginForm" method="post"
+                                    novalidate="novalidate">
+                                    <div class="item item-fore1">
+                                        <label for="loginName" class="login-label name-label" title="登录账号"></label>
+                                        <input type="text" class="itxt" id="loginName" name="loginName"
+                                            autocomplete="off" placeholder="手机号/会员名/邮箱">
+                                    </div>
+
+                                    <div class="item item-fore2">
+                                        <label for="memberPwd" class="login-label pwd-label" title="登录密码"></label>
+                                        <input type="password" class="itxt" id="memberPwd" name="memberPwd"
+                                            placeholder="输入账户密码" autocomplete="off">
+                                    </div>
+                                    <span style="display: block" id="spn2"></span>
+                                    <div class="item item-fore4">
+                                        <div class="safe">
+                                            <span class="auto">
+                                                <input type="checkbox" value="1" class="checkbox" id="autoLogin"
+                                                    name="autoLogin">
+                                                七天自动登录
+                                            </span>
+                                            <span class="forget-pw-safe">
+                                                <a href="" class="">忘记密码</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <a href="###" id="pwd-login" class="slide-imgver-btn ">登录</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coagent" id="demo-form-site">
+                        <ul>
+                            <li><a href="javascript:void(0);" title="微信账号登录" class="pdl" id="weixinLogin"><b
+                                        class="weixin-icon"></b><span>微信</span></a><span class="line">|</span></li>
+                            <li class="extra-r">
+                                <div class="regist-link"><a id="zhu1" title="" href="" target="_blank"><b></b>立即注册</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="login-banner" style="background-color:#e93854">
+                <div class="wrapper">
+                    <div id="banner-bg" class="i-inner">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+
+</body>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/04denglu.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/08dengluye.js"></script>
+
+</html>

@@ -1,0 +1,214 @@
+.wrapper {
+    width: 1210px;
+    margin: auto;
+
+    .all-category {
+        display: block;
+        float: left;
+        width: 180px;
+        height: 40px;
+        background-color: #F30213;
+
+        .title {
+            line-height: 20px;
+            height: 20px;
+            padding: 10px 10px 11px 10px;
+
+            a {
+                font-size: 14px;
+                font-weight: normal;
+                color: #FFF;
+                float: left;
+                margin-left: 6px;
+            }
+
+            i {
+                display: block;
+                float: right;
+                width: 9px;
+                height: 6px;
+                margin: 8px 6px 0 0;
+                background: url(../img/web_common_pic.png) no-repeat -90px -60px;
+            }
+        }
+
+        .min-title {
+            display: none;
+        }
+
+        .category {
+            width: 180px;
+            // box-shadow: none;
+            background-color: #fff;
+
+            .menu {
+                position: relative;
+                z-index: 2;
+                width: 180px;
+                padding: 19px 0;
+                min-height: 442px;
+                // background-color: #6E6568;
+                // color: #FFF;
+
+                .cate-menu-item {
+                    padding-left: 12px;
+                    height: 34px;
+                    line-height: 34px;
+                    font-size: 0;
+
+                    .cate-menu-box {
+                        display: inline-block;
+                        width: 164px;
+                        overflow: hidden;
+
+                        a {
+                            font-size: 14px;
+                            // color: #fff;
+                        }
+
+                        .cate-menu-line {
+                            padding: 0 4px;
+                            font-size: 12px;
+                        }
+
+                        .cate-menu-lk:hover {
+                            color: rgba(201, 47, 47, 0.856);
+                        }
+                    }
+
+                    .cate-part {
+                        display: none;
+                        font-size: 12px;
+                        position: absolute;
+                        left: 180px;
+                        top: 0;
+                        z-index: auto;
+                        width: 998px;
+                        min-height: 419px;
+                        border: 1px solid #f7f7f7;
+                        border-top: 0;
+                        background-color: #f7f7f7;
+                        box-shadow: 1px 4px 0 rgba(0, 0, 0, 0.05);
+                        transition: top .25s ease;
+
+                        .cate-part-col1 {
+                            float: left;
+                            width: 740px;
+                            padding: 20px 0 10px;
+
+
+                            .cate-detail-item {
+                                line-height: 34px;
+                                position: relative;
+                                min-height: 36px;
+                                padding-left: 80px;
+
+                                .cate-detail-tit {
+                                    // display: block;
+                                    position: absolute;
+                                    top: 1px;
+                                    left: 0;
+                                    overflow: hidden;
+                                    width: 70px;
+                                    text-align: right;
+                                    white-space: nowrap;
+                                    text-overflow: ellipsis;
+                                    font-weight: 700;
+
+                                    a {
+                                        color: #333;
+                                        outline: medium none;
+                                    }
+                                }
+
+                                .cate-detail-con {
+                                    overflow: hidden;
+                                    padding: 6px 0;
+                                    border-top: 1px solid #EEE;
+
+                                    a {
+                                        height: 16px;
+                                        float: left;
+                                        margin: 4px 0;
+                                        padding: 0 10px;
+                                        white-space: nowrap;
+                                        border-left: 1px solid #e0e0e0;
+                                        line-height: 16px;
+                                        color: #333;
+                                    }
+                                }
+                            }
+                        }
+
+                        .sub-class-right {
+                            width: 240px;
+                            height: 439px;
+                            float: right;
+                            border-left: solid 1px #E6E6E6;
+                            overflow: hidden;
+
+                            .adv-promotions {
+                                height: 441px;
+                                margin: -1px 0;
+
+                                a {
+                                    background: #FFF;
+                                    display: block;
+                                    width: 240px;
+                                    height: 146px;
+                                    border-top: solid 1px #E6E6E6;
+
+                                    img {
+                                        background: #D3D3D3;
+                                        width: 240px;
+                                        height: 146px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                .hover {
+                    background: #999395;
+                }
+
+            }
+        }
+
+    }
+
+    .site-menu {
+        font-size: 0;
+        word-spacing: -1px;
+        white-space: nowrap;
+        max-width: 988px;
+        float: left;
+        overflow: hidden;
+
+        li {
+            vertical-align: top;
+            letter-spacing: normal;
+            word-spacing: normal;
+            display: inline-block;
+            display: inline;
+            zoom: 1;
+
+            a {
+                font-size: 15px;
+                font-weight: normal;
+                line-height: 20px;
+                color: #333;
+                padding: 8px 24px;
+                display: inline-block;
+                height: 20px;
+                zoom: 1;
+            }
+
+            .activ {
+                color: red;
+            }
+        }
+    }
+}

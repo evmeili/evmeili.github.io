@@ -1,0 +1,91 @@
+.wrapper {
+    width: 1210px;
+    margin: auto;
+
+    .notice {
+        font-family: 微软雅黑;
+        width: 300px;
+        height: 134px;
+        float: left;
+        border-right: 1px solid rgb(234, 234, 234);
+        margin: 25px 0px 25px 2%;
+
+        h2 {
+            color: rgb(102, 102, 102);
+            font: 400 16px/20px 微软雅黑;
+            padding: 5px 5px 5px 20px;
+            margin: 0px 0px 5px;
+        }
+
+        .content-news {
+            height: 146px;
+            overflow: hidden;
+
+            ul {
+                padding: 0px 6px 0px 15px;
+
+                li {
+                    width: 250px;
+                    line-height: 24px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    height: 24px;
+                    overflow: hidden;
+
+                    a {
+                        color: #999;
+                    }
+                }
+            }
+        }
+    }
+
+    .link {
+        font-family: 微软雅黑;
+        width: 823px;
+        float: left;
+        font-size: 0px;
+        white-space: nowrap;
+        margin-left: 50px;
+        padding: 20px 0%;
+        overflow: hidden;
+
+        li {
+            font-size: 12px;
+            vertical-align: top;
+            letter-spacing: normal;
+            word-spacing: normal;
+            display: inline-block;
+            *display: inline;
+            width: 20%;
+            zoom: 1;
+
+            dl {
+                display: block;
+                width: 90%;
+                margin: 0 auto;
+
+                dt {
+                    color: rgb(102, 102, 102);
+                    font: 400 16px/20px 微软雅黑;
+                    padding: 5px;
+                    margin: 5px 0px;
+                }
+
+                dd {
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    display: block;
+                    clear: both;
+                    font: 12px/20px 微软雅黑;
+                    padding: 2px 5px;
+                    overflow: hidden;
+
+                    a {
+                        color: #999;
+                    }
+                }
+            }
+        }
+    }
+}

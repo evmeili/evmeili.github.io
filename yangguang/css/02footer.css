@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.p-footer{
+    color: #eeeeee;
+    word-spacing: 5px;
+    padding: 15px 0 0;
+}
+
+.p-footer a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.footer-img {
+    padding: 20px 0 10px;
+    width: 32.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer-img li {
+    display: block;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.footer-img li:last-child {
+    margin-right: 0px;
+}
+
+.footer-img li a {
+    display: block;
+    width: 108px;
+    height: 40px;
+    background: url(../imges/yangguang_footer.png);
+}
+
+.img01 {
+    background-position: 0 0;
+}
+
+.footer-img li .img05 {
+    background-position: -488px 0;
+}
+
+.footer-img li img {
+    width: 108px;
+}

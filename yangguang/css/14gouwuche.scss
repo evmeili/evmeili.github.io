@@ -1,0 +1,688 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+    color: #666;
+}
+
+.shop {
+    width: 100%;
+    height: 100%;
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        height: 0px;
+        clear: both;
+        overflow: hidden;
+        visibility: hidden;
+    }
+
+    .wrapper {
+        width: 1210px;
+        margin: 0 auto;
+    }
+
+    .header {
+        border-bottom: solid 1px #e5e5e5;
+        background: #f5f5f5;
+    }
+
+    .ncc-head-wrap {
+        position: relative;
+        z-index: 1;
+        display: block;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        border-bottom: none;
+        background-color: #FFF;
+
+        .ncc-head-layout {
+            width: 1200px;
+            height: 96px;
+            margin: 0 auto;
+
+            .site-logo {
+                float: left;
+                width: 240px;
+                height: 68px;
+                margin: 10px 0 18px 0;
+
+                img {
+                    max-width: 240px;
+                    max-height: 68px;
+                }
+            }
+
+            .ncc-flow {
+                font-size: 0;
+                word-spacing: -1em;
+                width: 640px;
+                height: 70px;
+                float: right;
+                margin: 15px 0;
+
+                li {
+                    font-size: 12px;
+                    vertical-align: top;
+                    letter-spacing: normal;
+                    word-spacing: normal;
+                    display: inline-block;
+                    width: 25%;
+                    height: 70px;
+                    position: relative;
+                    z-index: 1;
+
+                    i {
+                        font-size: 24px;
+                        color: #000;
+                        margin-left: -15px;
+                        position: absolute;
+                        z-index: 2;
+                        top: 0;
+                        left: 50%;
+                        filter: alpha(opacity=25);
+                        opacity: 0.25;
+                    }
+
+                    p {
+                        font-size: 14px/24px arial, "microsoft yahei";
+                        color: #616161;
+                        text-align: center;
+                        width: 100%;
+                        height: 24px;
+                        position: absolute;
+                        z-index: 2;
+                        left: 0;
+                        bottom: 0;
+                        overflow: hidden;
+                    }
+
+                    sub {
+                        width: 5px;
+                        height: 5px;
+                        margin-left: -3px;
+                        border: solid 1px #CCC;
+                        border-radius: 4px;
+                        position: absolute;
+                        z-index: 2;
+                        top: 34px;
+                        left: 50%;
+                        background-color: #616161;
+                        border-color: #616161;
+                        box-shadow: 0 0 1px 3px #E1E1E1;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .ncc-main {
+        position: relative;
+        z-index: 1;
+        background-color: #FFF;
+        padding-bottom: 30px;
+
+        .ncc-wrapper {
+            width: 1190px;
+            margin: 0 auto;
+            padding: 0 5px;
+        }
+
+        .ncc-title {
+            display: block;
+            height: 50px;
+            padding: 15px 0;
+
+            h3 {
+                font: lighter 16px/30px arial, "microsoft yahei";
+                color: #616161;
+            }
+
+            h5 {
+                font: 12px/20px arial, "microsoft yahei";
+                color: #BFBFBF;
+            }
+        }
+
+        .ncc-cart-status {
+            position: absolute;
+            z-index: 1;
+            top: 30px;
+            left: 50%;
+            margin-left: 260px;
+
+            .bar {
+                position: relative;
+                z-index: 1;
+                display: inline-block;
+                vertical-align: middle;
+                width: 100px;
+                height: 5px;
+                margin: 0 5px;
+                border-radius: 5px;
+                background-color: #E1E1E1;
+
+            }
+
+            .sub {
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                height: 5px;
+                border-radius: 5px;
+                background-color: #e4393c;
+            }
+
+            .sum {
+                font-family: Tahoma;
+                color: #616161;
+            }
+        }
+
+        input,
+        select,
+        textarea {
+            font: 12px/20px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+        }
+
+        .checkbox,
+        .radio {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .ncc-wrapper {
+            width: 1190px;
+            margin: 0 auto;
+            padding: 0 5px;
+
+            .ncc-mod-thead {
+                display: block;
+                height: 30px;
+                padding: 4px 0;
+                border: solid 1px #E9E9E9;
+                background-color: #F3F3F3;
+
+                li {
+                    float: left;
+                    color: #212121;
+                    line-height: 30px;
+                }
+
+                .col-opt {
+                    width: 90px;
+                    padding-left: 18px;
+
+                    .checkbox-layout {
+                        display: inline-block;
+                        height: 16px;
+                    }
+                }
+
+                .col-goods {
+                    width: 480px;
+                    text-indent: 12px;
+                }
+
+                .col-quantity {
+                    width: 166px;
+                    text-indent: 70px;
+                }
+
+                .col-unitprice {
+                    width: 175px;
+                    padding-right: 15px;
+                    text-align: right;
+                }
+
+                .col-rebate {
+                    width: 78px;
+                    text-indent: 30px;
+                }
+
+                .col-amount {
+                    width: 150px;
+                    text-align: right;
+                }
+            }
+
+            .ncc-mod-tbody {
+                position: relative;
+                margin-bottom: 20px;
+                background: #FFF;
+                z-index: 1;
+
+                .checkbox-layout {
+                    display: inline-block;
+                    height: 16px;
+                }
+
+                .fl {
+                    float: left !important;
+                }
+
+                .store-bar {
+                    position: relative;
+                    z-index: 2;
+                    display: block;
+                    height: 48px;
+                    padding: 0 20px;
+                    border-bottom: solid 2px #AAAAAA;
+                    line-height: 48px;
+
+
+                    .fr {
+                        float: right !important;
+                    }
+                }
+
+                .goods-zone {
+
+                    z-index: 1;
+                    padding: 20px 19px 25px 19px;
+                    border-style: solid;
+                    border-color: #F1F1F1;
+                    border-width: 0 1px 1px;
+
+                    .big {
+                        margin-bottom: 20px;
+                    }
+
+                    .m-r-5 {
+                        margin-right: 5px !important;
+                    }
+                }
+
+                .goods-img {
+                    float: left;
+                    border: solid 1px #E1E1E1;
+                    width: 80px;
+                    height: 80px;
+
+                    .img-vertical {
+                        width: 80px;
+                        height: 80px;
+                        text-align: center;
+
+
+                    }
+                }
+
+                a {
+                    color: #333;
+                }
+
+                .goods-main {
+                    display: block;
+                    width: 1030px;
+                    float: left;
+                    margin: 0 0 0 15px;
+
+                    .attributes {
+                        display: inline-block;
+                        margin-left: 10px;
+                        vertical-align: top;
+                    }
+
+                    .spu-name {
+                        display: block;
+                        float: left;
+                        height: 20px;
+                        font-family: "microsoft yahei";
+                        font-size: 13px;
+                        line-height: 20px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        margin-bottom: 10px;
+
+                        .tag {
+                            display: inline-block;
+                            overflow: hidden;
+                            height: 16px;
+                            padding: 0 3px;
+                            margin-top: 1px;
+                            margin-right: 4px;
+                            vertical-align: top;
+                            border-radius: 2px;
+                            background: #CCC;
+                            font: 12px/16px "Helvetica Neue", "Hiragino Sans GB", SimSun, serif;
+                            color: #fff;
+                        }
+                    }
+
+                    .panel-remove {
+                        display: block;
+                        position: absolute;
+                        z-index: 1;
+                        right: 0;
+                        bottom: 0;
+                        width: 60px;
+                        height: 18px;
+                        padding: 4px 12px 2px 0;
+                        background-color: #F5F5F5;
+
+                        a {
+                            display: block;
+                            float: left;
+                            width: 18px;
+                            height: 18px;
+                            text-align: center;
+                            margin-left: 12px;
+                            line-height: 18px;
+
+                            i {
+                                font-size: 18px;
+                                margin: 0;
+                                vertical-align: top;
+                                color: #AAA;
+                            }
+                        }
+                    }
+
+                    .panel-modify {
+                        position: absolute;
+                        top: 40px;
+                        z-index: 3;
+                        display: block;
+                        height: 20px;
+                    }
+
+                    table {
+                        border-collapse: separate !important;
+                    }
+
+                    .spu-singles {
+                        position: relative;
+                        z-index: 1;
+                        width: 98%;
+                        margin: 0;
+                        padding: 0;
+                        margin-left: 2%;
+
+                        td {
+                            padding: 9px 0;
+                        }
+
+                        .goods-sku {
+                            height: 26px;
+
+                            td {
+                                border-width: 1px;
+                                border-color: #FFF;
+                                border-style: dotted;
+                                vertical-align: middle;
+                            }
+
+                            .sku-opt {
+                                width: 20px;
+                            }
+
+                            .sku-primary {
+                                width: 360px;
+                                height: 26px;
+                                overflow: hidden;
+                                line-height: 26px;
+                            }
+
+                            .sku-quantity {
+                                width: 96px;
+                                position: relative;
+
+                                .minus {
+                                    position: relative;
+                                    z-index: 1;
+                                    display: block;
+                                    width: 22px;
+                                    height: 26px;
+                                    text-align: center;
+                                    float: left;
+                                    margin-right: -1px;
+                                    border: solid #E1E1E1 1px;
+                                    border-radius: 3px 0 0 3px;
+                                    background-color: #FAFAFA;
+                                    line-height: 24px;
+                                }
+
+                                .sku-quantity-block {
+                                    display: block;
+                                    position: relative;
+                                    z-index: 1;
+                                }
+
+                                .input-text {
+                                    position: relative;
+                                    z-index: 1;
+                                    display: block;
+                                    float: left;
+                                    width: 40px;
+                                    height: 20px;
+                                    text-align: center;
+                                    padding: 2px 4px;
+                                    border: solid 1px #E1E1E1;
+                                    line-height: 20px;
+                                }
+
+                                .plus {
+                                    position: relative;
+                                    z-index: 1;
+                                    display: block;
+                                    width: 22px;
+                                    height: 26px;
+                                    text-align: center;
+                                    float: left;
+                                    margin-left: -1px;
+                                    border: solid #E1E1E1 1px;
+                                    border-radius: 0 3px 3px 0;
+                                    background-color: #FAFAFA;
+                                    line-height: 24px;
+                                }
+                            }
+
+                            .save {
+                                cursor: pointer;
+                                color: red;
+                            }
+
+                            .sku-delete {
+                                width: 30px;
+
+                                a {
+                                    // display: none;
+                                    width: 20px;
+                                    height: 20px;
+                                    padding: 2px;
+                                }
+                            }
+
+                            .sku-unitprice {
+                                width: 180px;
+                                padding-right: 15px;
+                                text-align: center;
+                                font-family: Tahoma;
+                                line-height: 26px;
+                                // color: #616161;
+                                color: red;
+
+                                .yuan,
+                                .decimal,
+                                .integer,
+                                .pointer {
+                                    font-weight: 400;
+                                }
+
+                            }
+
+                            .sku-rebate {
+                                width: 78px;
+                                text-align: center;
+                                line-height: 26px;
+
+                                .sku-rebate-block {
+                                    position: relative;
+                                    z-index: 1;
+                                    display: inline-block;
+                                    padding: 1px 4px;
+                                    border-radius: 2px;
+                                    background-color: #E4393C;
+                                    font-size: 11px;
+                                    line-height: 16px;
+                                    color: #FFF;
+                                    cursor: default;
+
+
+                                }
+                            }
+
+                            .sku-amount {
+                                width: 140px;
+                                text-align: right;
+                                color: red;
+
+                                .sku-amount-block {
+                                    line-height: 26px;
+                                    color: #E4393C;
+
+                                    .yuan {
+                                        font-size: 12px;
+                                        font-family: Verdana, Tahoma;
+                                    }
+
+                                    .integer {
+                                        font-size: 14px;
+
+                                    }
+
+                                    .decimal {
+                                        font-size: 12px;
+                                        font-weight: 700;
+                                    }
+
+                                    .integer,
+                                    .pointer {
+                                        font-weight: 700;
+                                      
+
+                                    }
+
+                                }
+                                .checkbox1 {
+                                    width: 20px;
+                                    height: 13px;
+                                    position: absolute;
+                                    left: -139px;
+                                    top: -7px;
+                                }
+                            }
+                        }
+                    }
+
+
+                }
+            }
+
+            .ncc-mod-tfoot {
+                position: relative;
+                background-color: #EEE;
+                height: 56px;
+                border-bottom: solid 1px #E1E1E1;
+                line-height: 56px;
+
+                .actions {
+                    float: left;
+                    padding-left: 20px;
+                    width: 190px;
+                    color: #222;
+
+                    a {
+                        color: #333;
+                    }
+
+                    .checkbox-layout {
+                        width: 70px;
+                        // height: 10px;
+                        display: inline-block;
+                    }
+
+                }
+
+                .summary {
+                    float: left;
+                    width: 820px;
+
+                    dl {
+                        display: block;
+                        float: right;
+                        height: 56px;
+                    }
+
+                    dt,
+                    dd {
+                        float: left;
+                    }
+
+                    .value {
+                        display: inline-block;
+                        margin-right: 5px;
+                        font-size: 16px;
+                        color: #000;
+                    }
+                }
+
+                .form {
+                    float: right;
+
+                    button {
+                        display: block;
+                        text-align: center;
+                        width: 150px;
+                        height: 56px;
+                        border: none 0;
+                        font-size: 16px;
+                        line-height: 56px;
+                        font-weight: 600;
+                    }
+
+                    .checkout {
+                        background-color: #E4393C;
+                        color: #FFF;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer {
+        font-size: 12px !important;
+        text-align: center;
+        clear: both;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        overflow: hidden;
+        background-color: rgb(52, 58, 58);
+        font-family: "微软雅黑";
+    }
+}

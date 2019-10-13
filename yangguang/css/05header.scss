@@ -1,0 +1,206 @@
+.top {
+    width: 1210px;
+    height: 35px;
+
+    .left {
+        float: left;
+        position: relative;
+
+        .area {
+            display: inline-block;
+            border-left: 1px solid #f5f5f5;
+            border-right: 1px solid #f5f5f5;
+            width: 94px;
+            height: 34px;
+            line-height: 34px;
+            padding: 0 9px 1px 9px;
+            margin: 1px 1px 0 0px;
+            text-decoration: none;
+            color: #666;
+
+            .i1 {
+                display: inline-block;
+                width: 10px;
+                height: 20px;
+                margin-left: 9px;
+                background: url(../img1/login_pic.png) no-repeat -378px -200px;
+            }
+        }
+        .s1{
+            font-size: 12px;
+            color: #333;
+        }
+
+        .area-list {
+            width: 280px;
+            padding: 5px;
+            font-size: 0;
+            display: none;
+            position: absolute;
+            top: 35px;
+            left: 0;
+            z-index: 99;
+            background: #fff;
+            border-left: 1px solid #FFF;
+            border-right: 1px solid #FFF;
+            border-bottom: 1px solid #FFF;
+            
+
+
+            a {
+                font-size: 12px;
+                line-height: 20px;
+                display: inline-block;
+                width: 20%;
+                height: 20px;
+                padding: 0 1%;
+                margin-top: 10px;
+                overflow: hidden;
+                text-decoration: none;
+                color: #555;
+            }
+        }
+    }
+
+    .area:hover .i1 {
+        background: url(../img1/login_pic.png) no-repeat -378px -216px;
+    }
+
+
+    .right {
+        float: right;
+
+        .menu-login {
+            float: left;
+        }
+
+        .menu-title {
+            font-size: 12px;
+            line-height: 20px;
+            height: 20px;
+            padding: 8px 9px 7px 9px;
+            margin: 0 3px 0 3px;
+            border: solid #f5f5f5;
+            border-width: 1px 1px 0 1px;
+
+            background-color: transparent;
+
+            .login-link {
+                color: #F30213;
+                padding: 5px;
+            }
+
+            .menu-link {
+                color: #555;
+
+            }
+
+            .arrow {
+                display: inline-block;
+                width: 10px;
+                height: 20px;
+                margin-left: 9px;
+                vertical-align: middle;
+                background: url(../img1/login_pic.png) no-repeat -378px -205px;
+            }
+        }
+
+        .menu-link:hover {
+            color: #F30213;
+        }
+
+        .menu {
+            position: relative;
+            float: left;
+            z-index: 1;
+
+            .menu-con {
+                position: absolute;
+                z-index: 1;
+                opacity: 0;
+                top: 0;
+                left: 2px;
+                height: 0;
+                overflow: hidden;
+                border: solid 1px #FFF;
+                background-color: #FFF;
+                transition: .2s ease-out;
+                padding: 8px 9px 7px 9px;
+
+
+                .menu-user li {
+                    width: 50%;
+                    float: left;
+                    padding: 4px 0;
+                }
+
+                a {
+                    color: #555;
+                    font-size: 12px;
+                    line-height: 24px;
+                    display: block;
+                    clear: both;
+                    padding: 2px 0 2px 10px;
+                }
+
+                a:hover {
+                    color: #F30213;
+                }
+
+            }
+
+        }
+
+        .shang {
+            left: auto;
+            right: 2px;
+            overflow: hidden;
+
+            .qr {
+                float: left;
+
+                img {
+                    width: 140px;
+                }
+            }
+
+            .p1 {
+                margin-top: 10px;
+                text-align: center;
+                line-height: 16px;
+            }
+        }
+
+        dl:hover {
+            z-index: 99;
+        }
+
+        .hover .menu-con {
+            top: 35px;
+            opacity: 1;
+            overflow: visible;
+            min-width: 81px;
+            height: auto;
+            border-color: #D6D6D6;
+            transition: .2s ease-out;
+            padding: 8px 4px 7px 4px;
+
+        }
+
+        .hover .menu-title {
+            position: relative;
+            z-index: 2;
+            border: solid #D6D6D6;
+            border-width: 1px 1px 0 1px;
+            background-color: #FFF;
+        }
+
+    }
+
+    .menu-title:hover .arrow {
+        background: url(../img1/login_pic.png) no-repeat -378px -222px;
+    }
+
+
+
+}

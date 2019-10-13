@@ -1,0 +1,33 @@
+.wrapper{
+    width: 1210px;
+    margin: auto;
+    .ccti-footer {
+        width: 1000px;
+        height: 86px;
+        margin: 0 auto;
+
+        i {
+            display: block;
+            float: left;
+            width: 250px;
+            height: 86px;
+            background: url(../imges/cti.png) no-repeat;
+        }
+
+        .cti01 {
+            background-position: 0px 0px;
+        }
+
+        .cti02 {
+            background-position: -250px 0px;
+        }
+
+        .cti03 {
+            background-position: -500px 0px;
+        }
+
+        .cti04 {
+            background-position: -750px 0px;
+        }
+    }
+}

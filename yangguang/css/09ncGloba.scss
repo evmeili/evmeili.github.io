@@ -1,0 +1,127 @@
+.nc-toolbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    border-right: 6px solid #7a6e6e;
+    transition: right .3s ease-in-out 0s;
+
+    .nc-toolbar-tabs {
+        position: absolute;
+        top: 50%;
+        left: -29px;
+        width: 35px;
+        margin-top: -61px;
+
+        .nc-tbar-tab-cart .tab-ico {
+            background-position: 0 -50px;
+        }
+
+        .nc-tbar-tab-coupon .tab-ico {
+            background-position: 0 -350px;
+        }
+
+        .nc-tbar-tab-follow .tab-ico {
+            background-position: 0 -100px;
+        }
+
+        .nc-tbar-tab-history .tab-ico {
+            background-position: 0 -150px;
+        }
+
+        .nc-tbar-tab-qrCode .tab-ico {
+            background-position: 0 -300px;
+        }
+
+        .nc-toolbar-tab:hover .tab-text {
+            left: -61px;
+            background-color: red;
+        }
+
+        .nc-toolbar-tab:hover {
+            background-color: red;
+        }
+    }
+
+    .nc-toolbar-footer1 {
+        position: absolute;
+        bottom: -1px;
+        width: 100%;
+        left: -29px;
+
+        .tbar-tab-top1 .tab-ico {
+            background-position: 0 -250px;
+        }
+
+    }
+
+    .nc-toolbar-tab {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        margin-bottom: 1px;
+        cursor: pointer;
+        background-color: #7a6e6e;
+        border-radius: 3px 0 0 3px;
+
+        i {
+            background: url(../img1/toolbar_bg.png) no-repeat;
+        }
+
+        .tab-tip {
+            display: inline-block;
+            position: absolute;
+            top: 8px;
+            right: 10px;
+            width: 6px;
+            height: 6px;
+            background-position: -100px 0;
+            z-index: 999;
+
+        }
+
+        .tab-ico {
+            display: inline-block;
+            width: 34px;
+            height: 35px;
+            margin-left: 1px;
+            position: relative;
+            z-index: 2;
+
+        }
+
+        .tab-text {
+            font-size: 12px;
+            width: 62px;
+            height: 35px;
+            line-height: 35px;
+            color: #fff;
+            text-align: center;
+            font-family: "宋体";
+            position: absolute;
+            z-index: 1;
+            left: 35px;
+            top: 0;
+            background-color: #7a6e6e;
+            border-radius: 3px 0 0 3px;
+            transition: left .3s ease-in-out .1s;
+        }
+
+        .tab-sub {
+            position: absolute;
+            z-index: 3;
+            right: 2px;
+            top: -5px;
+            height: 11px;
+            padding: 1px 2px;
+            overflow: hidden;
+            color: #fff;
+            font: 11px/11px verdana;
+            text-align: center;
+            min-width: 11px;
+            border-radius: 10px;
+            background-color: #C81623;
+        }
+    }
+}
