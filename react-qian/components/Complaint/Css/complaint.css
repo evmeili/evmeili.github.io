@@ -1,0 +1,13 @@
+.row {
+  margin-right: -12px;
+  margin-left: -12px;
+}
+.row .col-xs-12 {
+  width: 100%;
+  float: left;
+  line-height: 1.5;
+  position: relative;
+  min-height: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
